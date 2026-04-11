@@ -7,16 +7,11 @@
 ## 📁 Project Structure
 
 ```
-COAE/
-└── Applications Of AI in Infosec/
-    └── Malware Classifier/
-        ├── model.ipynb                      # ResNet50 malware image classifier
-        ├── preprocessing.ipynb              # Dataset preprocessing pipeline
-        ├── preprocessingandloading.ipynb    # Data loading utilities
-        ├── split-folders.ipynb              # Train/test split helper
-        ├── graph.ipynb                      # Visualization notebook
-        ├── newdata/                         # Preprocessed split dataset
-        └── malware_classifier.pth           # Saved model weights
+ML-Projects/
+└── Malware Classifier/
+   └── Malware Classifier/
+   └── Network Anomaly Detector
+   └── Spam Classifier
 ```
 
 ---
@@ -104,7 +99,7 @@ ResNet50 (frozen) → Linear(2048, 1000) → ReLU → Linear(1000, N_classes)
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/COAE.git
+git clone https://github.com/mua-az/COAE.git
 cd COAE
 
 # Install dependencies
